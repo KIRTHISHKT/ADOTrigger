@@ -11,7 +11,7 @@ trigger:
 resources:
   repositories:
   - repository: IIS
-    type: GitHub
+    type: GitHub 
     endpoint: github.com_KIRTHISHKT
     name: KIRTHISHKT/IIS
     ref: refs/heads/master 
