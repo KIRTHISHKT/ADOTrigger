@@ -1,0 +1,19 @@
+name: v$(Date:yyyyMMdd)$(Rev:rr)
+pr:
+  autoCancel: false
+  branches:
+    include:
+    - master
+trigger:
+  branches:
+    include:
+    - master
+resources:
+  repositories:
+  - repository: IIS
+    type: GitHub
+    endpoint: github.com_KIRTHISHKT
+    name: KIRTHISHKT/IIS
+    ref: refs/heads/master
+    trigger:
+      enabled: false
