@@ -10,9 +10,9 @@ trigger:
     - master
 resources:
   repositories:
-  - repository: IIS
+  - repository: Maven
     type: GitHub 
-    endpoint: 'github.com_KIRTHISHKT'
-    name: KIRTHISHKT/IIS
+    endpoint: KIRTHISHKT
+    name: KIRTHISHKT/Maven
     ref: refs/heads/master 
     trigger: none
