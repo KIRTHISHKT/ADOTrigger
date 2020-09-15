@@ -4,7 +4,7 @@ pr:
   branches:
     include:
     - master 
-trigger:
+trigger: 
   branches:
     include:
     - master
