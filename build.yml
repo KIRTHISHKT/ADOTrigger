@@ -15,4 +15,9 @@ resources:
     endpoint: KIRTHISHKT
     name: KIRTHISHKT/Maven
     ref: refs/heads/master 
-    trigger: none
+    trigger:
+        branches:
+          include:
+            - main
+            - master
+            - release
