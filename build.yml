@@ -3,7 +3,7 @@ pr:
   autoCancel: false
   branches:
     include:
-    - master
+    - master 
 trigger:
   branches:
     include:
