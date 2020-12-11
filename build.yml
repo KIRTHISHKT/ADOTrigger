@@ -13,14 +13,7 @@ resources:
   - repository: Maven
     type: GitHub 
     endpoint: KIRTHISHKT
-    name: KIRTHISHKT/Maven
-    ref: refs/heads/master 
-    trigger:
-        branches:
-          include:
-            - main
-            - master
-            - release
+    name: KIRTHISHKT/Maven 
 
 stages:
 
