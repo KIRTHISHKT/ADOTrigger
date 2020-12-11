@@ -12,7 +12,7 @@ resources:
   repositories:
   - repository: Maven
     type: GitHub 
-    endpoint: KIRTHISHKT
+    endpoint: github.com_KIRTHISHKT
     name: KIRTHISHKT/Maven 
 
 stages:
