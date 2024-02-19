@@ -1,7 +1,7 @@
 trigger: none
 
 schedules:
-- cron: "0 0 * * FRI"
+- cron: "* * * * *"
   branches:
     include:
       - main
