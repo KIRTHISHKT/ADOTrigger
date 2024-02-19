@@ -4,8 +4,7 @@ schedules:
 - cron: "* * * * *"
   branches:
     include:
-      - main
-  batch: true
+      - master
   always: true
 
 pool:
